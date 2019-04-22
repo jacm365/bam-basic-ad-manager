@@ -1,0 +1,79 @@
+.color-pin {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-bottom: -1px;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.black {
+    background-color: black;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.bam-ads-list input{
+    background-color: transparent;
+}
+
+.bam-ad-form {
+    width: 98%;
+}
+
+.bam-ad-form .field-row {
+    width: 100%;
+    border: 1px solid #d7d7d7;
+    border-bottom: none;
+    display: flex;
+}
+
+.bam-ad-form .field-row .error-message {
+    color: #dc3232;
+    margin-left: 5px;
+}
+
+.bam-ad-form #save {
+    margin-top: 1rem;
+}
+
+.bam-ad-form #remaining-time {
+    display: none;
+}
+
+.bam-ad-form .field-row:last-of-type {
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.bam-ad-form .field-row .ad-field-label {
+    padding: 10px;
+    border-right: 1px solid #d7d7d7;
+    display: inline-block;
+    width: 15%;
+}
+
+.bam-ad-form .field-row .ad-field-label label {
+    font-weight: bold;
+    display: block;
+}
+
+.bam-ad-form .field-row .ad-field-label small {
+    color: #808080;
+}
+
+.bam-ad-form .field-row .ad-field-input {
+    display: inline-block;
+    width: 80%;
+    vertical-align: top;
+}
+
+.bam-ad-form .field-row .ad-field-input input, .bam-ad-form .field-row .ad-field-input select {
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-bottom: none;
+}

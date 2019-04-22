@@ -1,0 +1,111 @@
+.bam-basice-ad-container {
+    font-family: arial;
+    margin-top: 1rem;
+}
+
+.bam-basice-ad-container .ad-body {
+    background-color: #fff;
+    display: flex;
+}
+
+.bam-basice-ad-container .ad-body .left-section {
+    display: inline-block;
+    width: 75%;
+    background-color: #000;
+}
+
+.bam-basice-ad-container .ad-body .left-section .timer {
+    display: flex;
+}
+
+.bam-basice-ad-container .ad-body .left-section .timer .countdown {
+    width: 70%;
+} 
+
+.bam-basice-ad-container .ad-body .left-section .timer .countdown table { 
+    width: 50%;
+    margin: auto;
+    min-width: 200px;
+    border: none;
+}
+
+.bam-basice-ad-container .ad-body .left-section .timer .countdown table th{ 
+    background-color: #ff1805;
+    border: none;
+    border-right: 2px solid #000;
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    padding: 2px 0px;
+    font-size: 0.75rem;
+}
+
+.bam-basice-ad-container .ad-body .left-section .timer .countdown table td{ 
+    background-color: #ff1805;
+    border: none;
+    border-right: 2px solid #000;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    padding: 0;
+    font-weight: bold;
+}
+
+.bam-basice-ad-container .ad-body .left-section .timer .countdown-text {
+    width: 30%;
+    color: #fff;
+    padding: 5% 0px;
+    line-height: 1rem;
+}
+
+.bam-basice-ad-container .ad-body .left-section .main-text {
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.bam-basice-ad-container .ad-body .left-section .main-text h1.ad-title {
+    color: #fee801;
+    font-weight: normal;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.bam-basice-ad-container .ad-body .left-section .main-text p.ad-text {
+    color: #fff;
+}
+
+.bam-basice-ad-container .ad-body .right-section {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+}
+
+.bam-basice-ad-container .ad-body .right-section {
+    display: flex;
+    align-items: center;
+}
+
+.bam-basice-ad-container .ad-body .right-section .call-to-action {
+    display: block;
+    width: 89%;
+    margin: auto;
+    text-decoration: none;
+    color: #2c1e04;
+    background-image: linear-gradient(to bottom, #FEBD17 0%, #FE9A17 100%);
+    border-bottom: 3px solid #8b540d;
+    border-radius: 4px;
+    line-height: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bam-basice-ad-container .ad-body .right-section .call-to-action:active {
+    border-bottom: 1px solid #8b540d;
+}
+
+.bam-basice-ad-container .ad-body .right-section .call-to-action-text {
+    color: #c4c4c4;
+    line-height: 1rem;
+    margin: 0;
+    margin-top: 5px;
+}
